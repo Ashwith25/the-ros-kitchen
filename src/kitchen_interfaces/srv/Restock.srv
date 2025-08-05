@@ -1,0 +1,5 @@
+# The ingredient the chef is requesting
+string ingredient
+---
+# A confirmation that the request was successful
+bool success
