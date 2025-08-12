@@ -9,7 +9,7 @@ This repository contains the source code for "The ROS Kitchen," a blog series de
   * **Part 1: A Beginner’s Guide to Nodes, Topics, and Services**
       * [Link](https://medium.com/@pashwith25/welcome-to-the-ros-kitchen-part-1-ee47cfa786a9)
   * **Part 2: A Beginner's Guide to Scaling Your Robot with Parameters and Namespaces**
-      * In Writing!
+      * [Link](https://medium.com/@pashwith25/expanding-the-ros-kitchen-part-2-5f27fa9dcf17)
   * **Part 3: Coming Soon\!**
 
 -----
