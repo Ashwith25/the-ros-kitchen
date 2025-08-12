@@ -48,14 +48,22 @@ source install/setup.bash
 
 You can now run the nodes from each part of the series. Remember to open a new terminal for each `ros2 run` command.
 
-**Example for Part 1:**
+**Example for Part 1 (All in separate terminals):**
 
 ```bash
-# In Terminal 1
-ros2 run part1 waiter_node
+ros2 run part1 waiter
 
-# In Terminal 2
-ros2 run part1 chef_node
+ros2 run part1 chef
+```
+
+**Example for Part 2 (All in separate terminals):** 
+
+```bash
+ros2 run part2 waiter --ros-args -r __ns:=/italian -p menu_items:="['Lasagna', 'Spaghetti', 'Risotto']"
+ros2 run part2 chef --ros-args -r __ns:=/italian
+
+ros2 run part2 waiter --ros-args -r __ns:=/chinese -p menu_items:="['Fried Rice', 'Dumplings', 'Chow Mein']"
+ros2 run part2 chef --ros-args -r __ns:=/chinese
 ```
 
 ## Feedback
